@@ -1,0 +1,56 @@
+body {
+  background: aqua;
+}
+
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  user-select: none;
+}
+
+.operation-button {
+  width: 29px;
+  height: 22px;
+  margin-top: 1px;
+  padding-top: 2px;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  border: none;
+}
+
+.operation-button:hover {
+  background-color: rgb(90, 88, 88);
+  /*cursor: pointer;*/
+}
+
+.inputbar {
+  width: 126px;
+  margin-left: 2px;
+  margin-bottom: 3px;
+  padding-top: 10px;
+  padding-right: 2px;
+  background-color: lightgreen;
+  color: black;
+  text-align: right;
+  vertical-align: bottom;
+  border: none;
+  outline: none;
+}
+
+.ispressed {
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.red:hover {
+  background-color: rgb(243, 83, 83);
+}
+
+.ans {
+  font-size: 10px;
+}
